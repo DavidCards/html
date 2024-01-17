@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ac3b9fda8f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="img/logos.png">
+
+
+    <title>Fitcook</title>
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="img/download.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="home.html#sobrenos">sobre nos</a></li>
+                    <li><a href="receitas.html">receitas</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+
+    </section>
+
+
+
+    <!--categorias receitas-->
+
+    <section class="receitas">
+        <h1>Receitas</h1>
+        <div class="row">
+            <div class="recita-col">
+
+                <img src="img/pexels-marta-dzedyshko-2067396.jpg" alt="">
+                <div class="layer">
+                    <a href="#sobremesas">
+                        <h3>Sobremesas</h3>
+
+                    </a>
+                </div>
+            </div>
+            <div class="recita-col">
+                <img src="img/pexels-valeria-boltneva-1251208.jpg" alt="">
+                <div class="layer">
+                    <a href="#principais">
+                        <h3>Pratos principais</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="recita-col">
+                <img src="img/panqueca.png" alt="">
+                <div class="layer">
+                    <a href="#lanches">
+                        <h3>Lanches</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--receitas-->
+
+    <section class="sobremesas">
+        <div id="principais"></div>
+        <h1>Pratos Principais</h1>
+        <div class="rowr">
+            <div class="sobremesas-col">
+                <h2>Frango com Batata Doce e Maçãs</h2>
+                <div class="image-container">
+                    <img src="img/frango.png" alt="123" width="200" height="200" style="border-radius: 10px"
+                        onclick="openModal('myModal1')">
+                </div>
+
+
+                <div id="myModal1" class="modal">
+                    <span class="close" onclick="closeModal('myModal1')">&times;</span>
+                    <p> <strong>Duração:</strong> 45 minutos / <strong>Doses:</strong> 4<br>
+                        <br>
+                        <strong>ingredientes:</strong><br>
+
+                        4 pedaços de bacon<br>
+                        1 quilo de frango moído <br>
+                        1 chavena de cebola picada (120 gramas)<br>
+                        4 chavenas de batata-doce cortada em cubos<br>
+                        2 chavena de pimentão picado (360 gramas)<br>
+                        1 chavena cheia de maçã em cubos (150 gramas)<br>
+                        1/2 colher de sopa de alho em pó<br>
+                        1/2 colher de sopa de gengibre em pó<br>
+                        1/2 colher de chá de canela<br>
+                        1/4-1/2 colher de chá de flocos de pimenta vermelha<br>
+                        1 colher de sopa de óleo ou gordura de bacon<br>
+                        Sal<br>
+                        Pimenta<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Cozinhar o bacon. Aqueça uma frigideira antiaderente (precisa ser
+                        grande e ter tampas) em lume médio. Adicione o bacon e polvilhe com pimenta. Cozinhar por 10
+                        minutos, virando uma vez eplo menos, até ficar crocante. Retire da panela e deixe
+                        arrefecer.<br>
+                        <strong>2ºpasso:</strong> Cozinhar o frango. Meta o lume para médio-baixo e escorra a maior
+                        parte da gordura do bacon. Adicione o frango moído, partindo-o com uma espátula ou picador
+                        de carne. Tempere com sal e pimenta. Cozinhe por 5-6 minutos até dourar por fora (não
+                        precisa estar totalmente cozido porque vai voltar a ser posto ao lume). Retire da panela e
+                        reserve.<br>
+                        <strong>3ºpasso:</strong> Cozinhar os vegetais. Se necessário, adicione um pouco de óleo ou
+                        gordura de bacon na frigideira. Em seguida, adicione a batata-doce, a cebola, o sal, a
+                        pimenta e misture bem. Tape com uma tampa e cozinhe por 13-15 minutos, mexendo a cada 5
+                        minutos. De seguida, adicione os pimentões, misture bem e cozinhe por mais 5 minutos. Todos
+                        os vegetais devem estar macios neste momento.<br>
+                        <strong>4ºpasso:</strong> Adicione de volta o frango e os restantes ingredientes . Baixe o
+                        lume e adicione o frango moído, a maçã aos cubos, os temperos e um pouco de sal e pimenta na
+                        panela e mexa bem para incorporar. Cozinhe por mais 2-3 minutos até que esteja bem aquecido
+                        e as maçãs estejam ligeiramente amolecidas.<br>
+                        <strong>5ºpasso:</strong> Esfarele o bacon e misture bem.<br>
+                        <strong>6ºpasso:</strong>Por fim se quiser adicionar mais sabor faça um ovos estrelado e/ou
+                        parta um abacate às fatias para ficar delicioso<br>
+                    </p>
+                </div>
+            </div>
+            <div class="sobremesas-col">
+                <h2>Frango e brócolos salteados</h2>
+                <div class="image-container">
+                    <img src="img/broclo.png" alt="123" width="200" height="200" style="border-radius: 10px"
+                        onclick="openModal('myModal2')">
+                </div>
+
+                <div id="myModal2" class="modal">
+                    <span class="close" onclick="closeModal('myModal2')">&times;</span>
+                    <p><strong> Duração:</strong> 30 minutos / <strong>Doses:</strong> 3<br>
+                        <br>
+                        <strong>Ingredientes:</strong><br>
+
+                        1 1/2 colheres de sopa de óleo de abacate<br>
+                        1 quilo de peito de frango (em fatias finas)<br>
+                        2 cabeças de brócolos (465 gramas)<br>
+                        1/2 chavena de caldo de galinha<br>
+                        3 colheres de sopa de sumo de limão<br>
+                        1 colher de sopa de óleo de sésamo<br>
+                        3 dentes de alho picados<br>
+                        1 gengibre fresco picado<br>
+                        1/2 colher de chá de flocos de pimenta vermelha<br>
+                        Sal<br>
+                        Pimenta<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Numa panela pequena, faça o molho misturando o caldo de galinha,
+                        molho de soja, sumo de limão, óleo de sésamo, alho, gengibre, flocos de pimenta vermelha e
+                        pimenta. Leve ao lume médio-baixo e deixe ferver por 20 minutos. Certifique-se de que mexe
+                        sempre. <br>
+                        <strong>2ºpasso:</strong> Quando faltarem cerca de 7 a 8 minutos para o molho, faça o frango
+                        e os brócolos. Após 20 minutos, o molho deve engrossar e reduzir por volta de 2/3 (deve
+                        cobrir as costas de uma colher). Retire do lume e deixe arrefecer por 1 minuto.<br>
+                        <strong>3ºpasso:</strong> Tempere o frango com sal e pimenta. Aqueça uma frigideira grande
+                        em lume médio, adicione o óleo e deixe aquecer. Adicione o frango e cozinhe por 30-60
+                        segundos de cada lado. Retire da frigideira e repita com o frango restante.<br>
+                        <strong>4ºpasso:</strong> Deixe o molho do frango na panela e acrescente os brócolos.
+                        Cozinhe por 3-5 minutos até ficar macio. Adicione novamente o frango na panela e misture
+                        bem.<br>
+                        <strong>5ºpasso:</strong> Adicione o molho e misture bem até incorporar e tudo ficar bem
+                        revestido. Cubra com sementes de sésamo, cebolinho e sirva com os acompanhamentos que
+                        preferir.
+                    </p>
+                </div>
+
+            </div>
+            <div class="sobremesas-col">
+                <h2>crispy chicken sandwich</h2>
+                <div class="image-container">
+                    <img src="img/crispy_chicken_sandwich.jpg" alt="123" width="200" height="200"
+                        style="border-radius: 10px" onclick="openModal('myModal3')">
+                </div>
+
+                <div id="myModal3" class="modal">
+                    <span class="close" onclick="closeModal('myModal3')">&times;</span>
+                    <p> <strong>Duração:</strong> 40 minutos / <strong>Doses:</strong> 2 <br>
+                        <br>
+                        <strong>Ingredientes:</strong><br>
+
+                        1 peito de frango<br>
+                        sal<br>
+                        alho em po<br>
+                        250g farinha<br>
+                        pimenta<br>
+                        3 gemas de ovo<br>
+                        molho picante<br>
+                        flocos de milho<br>
+                        iogurte grego<br>
+                        sriracha<br>
+                        sumo de picles<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Pegue num peito de frango grande e num martelo para a carne e
+                        amacie a carne até achatar.De seguida, faça um corte ao meio e adicione sal e alho em
+                        pó.<br>
+                        <strong>2ºpasso:</strong> Agora precisamos de fazer a 1ª estação de panificação com farinha,
+                        sal, alho em pó e pimenta. Fazer a 2ª estação com gemas de ovo e molho picante e por fim,
+                        esmagar flocos de milho para ficar crocante.<br>
+                        <strong>3ºpasso:</strong> De seguida, por esta ordem, mergulhamos o frago na 1º, 2º e na 3º
+                        estação e pressione para ficar totalmente revestido.<br>
+                        <strong>4ºpasso:</strong> frite durante uns 15 minutos e torre ligeiramente o pão antes de
+                        meter o molho.<br>
+                        <strong>5ºpasso:</strong> Para fazer o molho basta juntar 90g de iogurte grego, 30g de
+                        sriracha e 2 colheres de sumo de picles.<br>
+                        <strong>6ºpasso:</strong> Por fim, adicione o molho sriracha, os picles e o frango crocante
+                        e desfrute da sua refeição.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sobremesas">
+        <div id="sobremesas"></div>
+        <h1>Sobremesas</h1>
+        <div class="rowr">
+            <div class="sobremesas-col">
+                <h2>Pudim de chocolate e chia</h2>
+                <div class="image-container">
+                    <img src="img/pudim.png" alt="123" width="200" height="200" style="border-radius: 10px"
+                        onclick="openModal('myModal4')">
+                </div>
+
+                <div id="myModal4" class="modal">
+                    <span class="close" onclick="closeModal('myModal4')">&times;</span>
+                    <p> <strong>Duração:</strong> 3horas 5 minutos / <strong>Dose:</strong> 2<br>
+                        <br>
+                        <strong>Ingredientes:</strong>
+                        <br>
+                        1 cahvena de leite de coco<br>
+                        2 colheres de sopa de cacau em pó negro<br>
+                        1 1/2 colheres de sopa de xarope de ácer<br>"
+                        1/2 colher de canela em po<br>
+                        1/2 colher de chá de extrato de baunilha<br>
+                        Sal<br>
+                        3-4 colheres de sopa de sementes de chia (dependendo da espessura desejada)<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Adicione o leite de coco, o cacau em pó, o xarope de ácer, a
+                        canela, a baunilha e o sal num jarro grande ou numa tigela pequena. Bata para mistura,
+                        certificando-se de desfaser os torrões de cacau em pó. Junte as sementes de chia até
+                        incorporar bem.<br>
+                        <strong>2ºpasso:</strong> Deixe descansar. Cubra e leve ao frigorifico por, pelo menos, 3
+                        horas. Se quiser, pode misturar por 45-60 minutos para garantir que as sementes de chia
+                        estejam distribuídas uniformemente.
+                    </p>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="sobremesas-col">
+                <h2>Bolinha de proteína de abóbora</h2>
+                <div class="image-container">
+                    <img src="img/bolo.png" alt="123" width="200" height="200" style="border-radius: 10px"
+                        onclick="openModal('myModal5')">
+                </div>
+
+                <div id="myModal5" class="modal">
+                    <span class="close" onclick="closeModal('myModal5')">&times;</span>
+                    <p><strong> Duração:</strong> 30 minutos <strong>Dose:12</strong> <br>
+                        <br>
+                        <strong>Ingredientes:</strong><br>
+
+                        1/2 chavena de purê de abóbora (122 gramas)<br>
+                        1/4 chavena de manteiga de amendoim (64 gramas)<br>
+                        1/2 chavena de proteína em pó de baunilha (66 gramas)<br>
+                        1 colher de sopa de pumpkin pie spice<br>
+                        sal<br>
+                        1/3 chavena de pedaços de chocolate (75 gramas)<br>
+                        1 colher de chá de óleo de coco<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Numa tigela média, adicione a abóbora, a manteiga de amendoim, a
+                        proteína em pó, o pumpkin pie spice, o sal e misture bem. No início vai ficar como se a
+                        massa tivesse seca mas depois de misturar durante um tempo fica consistente.<br>
+                        <strong>2ºpasso:</strong> Usando uma colher de sopa forme 12 bolas de tamanhos iguais.
+                        Coloque num prato forrado em papel manteiga e leve ao congelador por 10 minutos para
+                        endurecer.<br>
+                        <strong>3ºpasso:</strong> Adicione os pedaços de chocolate e o óleo de coco numa tigela
+                        pequena e média. Coloque no microonda de 15-20 segundos até derreter. Certifique-se de mexer
+                        sempre para que o chocolate não queime!<br>
+                        <strong>4ºpasso:</strong> Mergulhe a bola de bolo na tigela de chocolate derretido e use uma
+                        colher para enrolá-la e cobri-la uniformemente. Repita com as restantes bolas. Deixe
+                        arrefecer no frigorifico até o chocolate endurecer.
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="sobremesas-col">
+                <h2>Blondies de gengibre com chocolate</h2>
+                <div class="image-container">
+                    <img src="img/blondies.png" alt="123" width="200" height="200" style="border-radius: 10px"
+                        onclick="openModal('myModal6')">
+                </div>
+
+                <div id="myModal6" class="modal">
+                    <span class="close" onclick="closeModal('myModal6')">&times;</span>
+                    <p> <strong>Duração:</strong> 33 minutos / <strong>Dose:</strong> 9<br>
+                        <br>
+                        <strong>Ingredientes:</strong><br>
+
+                        1/2 chavena + 1 colher de sopa de manteiga derretida<br>
+                        3 ovos grandes<br>
+                        3 colheres de sopa de melaço<br>
+                        1 1/2 colher de chá de extrato de baunilha<br>
+                        1/4 chavena + 2 colheres de sopa de farinha de mandioca<br>
+                        1 1/2 colher de gengibre em po<br>
+                        1 1/2 colher de cha de canela em po<br>
+                        1 colher de chá de noz-moscada<br>
+                        1/4 colher de cha de cravo da india<br>
+                        1 colher de chá de fermento em pó<br>
+                        1/4 colher de chá de sal<br>
+                        1/4 chavena de pedaços de chocolate negro + mais para cobertura (cerca de 5 colheres de sopa
+                        no total)<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Pré-aqueça o forno a 350 graus e barre com manteiga ou óleo um
+                        recipiente proprio para o forno.<br>
+                        <strong>2ºpasso:</strong> Numa tigela média, derreta levemente a manteiga até amolecer, no
+                        microondas por exemplo. Adicione os ovos, o melaço e o extrato de baunilha e misture bem.
+                        Adicione a farinha de mandioca, as especiarias, fermento e sal e bata até incorporar. Junte
+                        os pedaços de chocolate.<br>
+                        <strong>3ºpasso:</strong> Despeje a massa no recipiente para o forno, espalhando-a numa
+                        camada uniforme. Deixe no forno por 18-20 minutos até formar uma leve crosta por cima e um
+                        palito sair limpo. Deixe esfriar por 10-15 minutos.<br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="sobremesas">
+        <div id="lanches"></div>
+        <h1>Lanches</h1>
+        <div class="rowr">
+            <div class="sobremesas-col">
+                <h2>Panquecas de requeijão</h2>
+                <div class="image-container">
+                    <img src="img/panqueca.png" alt="123" width="200" height="200" style="border-radius: 10px"
+                        onclick="openModal('myModal7')">
+                </div>
+
+                <div id="myModal7" class="modal">
+                    <span class="close" onclick="closeModal('myModal7')">&times;</span>
+                    <p><strong>Duração:</strong> 20 minutos / <strong>Doses:</strong> 2<br>
+                        <br>
+                        <strong>ingredientes:</strong><br>
+
+                        1 chavena de queijo cottage (220 gramas)<br>
+                        2 ovos grandes<br>
+                        1 chavena de aveia em flocos (100 gramas)<br>
+                        2 colheres de chá de canela em po<br>
+                        2 colheres de chá de fermento em pó<br>
+                        2 colheres de chá de extrato de baunilha<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Adicionar todos os ingredientes ao liquidificador na ordem listada
+                        e bata até ficar homogêneo, cerca de 30 segundos. Certifique-se de não misturar demais e
+                        deixe descansar por 5 minutos. Deve ficar com uma textura grossa.<br>
+                        <strong>2ºpasso:</strong> Aqueça uma frigideira grande antiaderente. Quando estiver bem
+                        quente, adicione a manteiga ou o oleo (aquilo que preferir) e deixe aquecer. Meta a massa e
+                        cozinhe por 3-4 minutos até que pequenas bolhas se comecem a formar do lado de fora e as
+                        laterais comecem a ficar fofas (embora não haja muitas bolhas). <br>
+                        <strong>3ºpasso:</strong> Vire as panquecas e cozinhe por mais 2-4 minutos até dourar.
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="sobremesas-col">
+                <h2>Smoothie de proteina de cafe</h2>
+                <div class="image-container">
+                    <img src="img/Smoothiedeproteinadecafe.jpg" alt="123" width="200" height="200"
+                        style="border-radius: 10px" onclick="openModal('myModal8')">
+                </div>
+
+                <div id="myModal8" class="modal">
+                    <span class="close" onclick="closeModal('myModal8')">&times;</span>
+                    <p><strong> Duração:</strong> 5 minutos / <strong>Doses:</strong> 1<br>
+                        <br>
+                        <strong>ingredientes:</strong> <br>
+
+                        1 banana média congelada (100 gramas)<br>
+                        1 chavena de arroz de couve-flor congelado (100 gramas)<br>
+                        1 porção de proteína em pó de baunilha (usei whey protein)<br>
+                        1 colher de sopa de manteiga de caju<br>
+                        1 colher de sopa de sementes de chia<br>
+                        1/2 colher de chá de canela em po<br>
+                        1/2 chavena de café frio <br>
+                        <br>
+                        <strong>1ºpasso:</strong> Congelar as bananas, se necessário. Para fazer isso, simplesmente
+                        corto algumas bananas, coloco-as numa tábua e coloco-as no congelador durante a noite. Senão
+                        agarrar nas bananas congeladas no liquificador.<br>
+                        <strong>2ºpasso:</strong> Adicionar todos os ingredientes em um liquidificador potente e
+                        bater até ficar homogêneo e cremoso.<br>
+                        <strong>3ºpasso:</strong> Por fim, meta num copo e desfrute.
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="sobremesas-col">
+                <h2>Aveia com maçã e canela</h2>
+                <div class="image-container">
+                    <img src="img/123.png" alt="123" width="200" height="200" style="border-radius: 10px"
+                        onclick="openModal('myModal9')">
+                </div>
+
+                <div id="myModal9" class="modal">
+                    <span class="close" onclick="closeModal('myModal9')">&times;</span>
+                    <p><strong>Duração:</strong> 5 minutos / <strong>Doses:</strong> 1<br>
+                        <br>
+                        <strong>Ingredientes:</strong><br>
+                        <br>
+                        1/2 chavena de flocos de aveia (50 gramas)<br>
+                        1/2 chavena de iogurte grego<br>
+                        1/2 chavena de maçã em cubos (50 gramas)<br>
+                        1 colher de sopa de sementes de chia<br>
+                        1 colher de cha de canela em po<br>
+                        1 colher de cha de mel<br>
+                        1/2 colher de chá de extrato de baunilha<br>
+                        2/3 chavena de leite de amêndoa<br>
+                        <br>
+                        <strong>1ºpasso:</strong> Adicionar todos os ingredientes num jarro grande. Mexa bem para
+                        misturar os ingredientes ou tampe o frasco e agite bem até que todos os ingredientes estejam
+                        bem misturados. <br>
+                        <strong>2ºpasso:</strong> Tape o recipiente e meta a mistura no frigorifico pelo menos 2
+                        horas até engrossar. <br>
+                        <strong>3ºpasso:</strong> Por fim, se quiser para ficar mais ao seu gosto meta um topping ou
+                        umas frutas por cima e aproveite!
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+    <!--footer-->
+
+    <section class="footer">
+        <h4>contatos</h4>
+        <div class="icons">
+            <span style="color: #f44336;  cursor: pointer; ">
+                <i class="fa-brands fa-facebook" style="margin: 0 13px; padding: 18px 0;"></i>
+                <i class="fa-brands fa-square-x-twitter" style="margin: 0 13px; padding: 18px 0;"></i>
+                <i class="fa-brands fa-instagram" style="margin: 0 13px; padding: 18px 0;"></i>
+                <i class="fa-brands fa-linkedin" style="margin: 0 13px; padding: 18px 0;"></i>
+            </span>
+        </div>
+        <p>Feito com <i class="fa-regular fa-heart" style="color: #f44336;"></i> por fit cook </p>
+    </section>
+
+
+    <!--java for menu-->
+    <script src="script.js"></script>
+
+  
+
+</body>
+
+</html>
